@@ -1,0 +1,547 @@
+[
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/tree.json",
+    "url": "https://api.github.com/repos/Tongqing-Wei/DeepPBI-KG_data_process/git/trees/2499852103a8b4d4610320eeadecb2fdd211da4a?recursive=1",
+    "kind": "json",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Figure1 A/Figure 1A.py",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Figure1%20A/Figure%201A.py",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Figure1 A/RF_all_sample.xlsx",
+    "url": "https://media.githubusercontent.com/media/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Figure1%20A/RF_all_sample.xlsx",
+    "kind": "xlsx",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a",
+    "sha256": "2849e22f34ee1ccd36d4f5e1283f661c5183ad47160feb26fcc60482c9a8708d",
+    "bytes": 207436400
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Figure1 A/host_phylum_info.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Figure1%20A/host_phylum_info.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Figure1 A/phage_host_phylum.xlsx",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Figure1%20A/phage_host_phylum.xlsx",
+    "kind": "xlsx",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Figure3 A/Figure 3A.py",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Figure3%20A/Figure%203A.py",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Figure3 A/key_gene_test_set.xlsx",
+    "url": "https://media.githubusercontent.com/media/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Figure3%20A/key_gene_test_set.xlsx",
+    "kind": "xlsx",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a",
+    "sha256": "a53b10dc45be38b81308664eea6da4a993f4ab4a7f3e64022b873368923f18ef",
+    "bytes": 139398179
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Figure3 A/key_gene_train_set.xlsx",
+    "url": "https://media.githubusercontent.com/media/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Figure3%20A/key_gene_train_set.xlsx",
+    "kind": "xlsx",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a",
+    "sha256": "d92e8731a1037777348da30dbf23bbd760d0af5ac749b2a2f2e5064579f394d4",
+    "bytes": 65936915
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Figure3 A/key_gene_train_set_random.xlsx",
+    "url": "https://media.githubusercontent.com/media/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Figure3%20A/key_gene_train_set_random.xlsx",
+    "kind": "xlsx",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a",
+    "sha256": "96c6da120f6c3ad60440305d75af61ee5500164ace1b6371b2d377f0262b9d28",
+    "bytes": 67327798
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Figure4 AB/MyModel/external_PHI_final.xlsx",
+    "url": "https://media.githubusercontent.com/media/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Figure4%20AB/MyModel/external_PHI_final.xlsx",
+    "kind": "xlsx",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a",
+    "sha256": "7b99ec335206e3f288bb2a768b433b4514d621993c2f3448ef15e8713b921dac",
+    "bytes": 70436628
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Figure4 AB/MyModel/external_key_gene_PHI_new.xlsx",
+    "url": "https://media.githubusercontent.com/media/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Figure4%20AB/MyModel/external_key_gene_PHI_new.xlsx",
+    "kind": "xlsx",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a",
+    "sha256": "2b2965c1289510875bdee00a2ce634eb35a03147c09a83e589978bd3ff16dde7",
+    "bytes": 73690226
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Figure4 AB/MyModel/key_gene_external_final.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Figure4%20AB/MyModel/key_gene_external_final.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Figure4 AB/MyModel/key_gene_external_new.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Figure4%20AB/MyModel/key_gene_external_new.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Figure4 AB/MyModel/wgs_external_final.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Figure4%20AB/MyModel/wgs_external_final.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Figure4 AB/MyModel/wgs_external_new.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Figure4%20AB/MyModel/wgs_external_new.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Supplementary Table2/wgs_kmeans.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Supplementary%20Table2/wgs_kmeans.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Supplementary Table2/wgs_random.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Supplementary%20Table2/wgs_random.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/MyModel/KP_RF_train_set.xlsx",
+    "url": "https://media.githubusercontent.com/media/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/MyModel/KP_RF_train_set.xlsx",
+    "kind": "xlsx",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a",
+    "sha256": "a71a986cbdc74c414b7b04525f5779703725418fad179bac521317e46039927b",
+    "bytes": 183344040
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/MyModel/KP_key_gene_0.0002.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/MyModel/KP_key_gene_0.0002.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/MyModel/KP_key_gene_feature.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/MyModel/KP_key_gene_feature.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/MyModel/KP_key_gene_importance.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/MyModel/KP_key_gene_importance.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/MyModel/KP_key_gene_new.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/MyModel/KP_key_gene_new.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/MyModel/KP_key_gene_vector.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/MyModel/KP_key_gene_vector.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/MyModel/KP_phage_key_gene_0.0006.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/MyModel/KP_phage_key_gene_0.0006.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/MyModel/KP_phage_key_gene_feature.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/MyModel/KP_phage_key_gene_feature.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/MyModel/KP_phage_key_gene_vector.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/MyModel/KP_phage_key_gene_vector.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/MyModel/KP_test_set_new.xlsx",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/MyModel/KP_test_set_new.xlsx",
+    "kind": "xlsx",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/MyModel/KP_train_set_new.xlsx",
+    "url": "https://media.githubusercontent.com/media/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/MyModel/KP_train_set_new.xlsx",
+    "kind": "xlsx",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a",
+    "sha256": "f9798489b7c018cc6d1ac803f5c3244cdaa669ab89f41865746372534658b681",
+    "bytes": 245336144
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/MyModel/KP_wgs_new.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/MyModel/KP_wgs_new.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/PredPHI/KP_feature.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/PredPHI/KP_feature.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/PredPHI/KP_phage_feature.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/PredPHI/KP_phage_feature.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/PredPHI/KP_roc_new.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/PredPHI/KP_roc_new.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/PredPHI/KP_test_new.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/PredPHI/KP_test_new.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_data_process",
+    "path": "data/raw/DeepPBI-KG_data_process/Table2/PredPHI/KP_train_new.csv",
+    "url": "https://raw.githubusercontent.com/Tongqing-Wei/DeepPBI-KG_data_process/2499852103a8b4d4610320eeadecb2fdd211da4a/Table2/PredPHI/KP_train_new.csv",
+    "kind": "binary",
+    "commit": "2499852103a8b4d4610320eeadecb2fdd211da4a"
+  },
+  {
+    "source": "DeepPBI-KG_external_data",
+    "path": "data/raw/DeepPBI-KG_external_data/tree.json",
+    "url": "https://api.github.com/repos/Tongqing-Wei/DeepPBI-KG_external_data/git/trees/c7735de626d32d01baaf0386423f552167ad9c39?recursive=1",
+    "kind": "json",
+    "commit": "c7735de626d32d01baaf0386423f552167ad9c39"
+  },
+  {
+    "source": "DeepPBI-KG_external_data",
+    "path": "data/raw/DeepPBI-KG_external_data/repository.zip",
+    "url": "https://codeload.github.com/Tongqing-Wei/DeepPBI-KG_external_data/zip/c7735de626d32d01baaf0386423f552167ad9c39",
+    "kind": "zip",
+    "commit": "c7735de626d32d01baaf0386423f552167ad9c39"
+  },
+  {
+    "source": "DeepPBI-KG",
+    "path": "data/raw/DeepPBI-KG/tree.json",
+    "url": "https://api.github.com/repos/Tongqing-Wei/DeepPBI-KG/git/trees/956850cac597255b1aff869786f34d144cff583b?recursive=1",
+    "kind": "json",
+    "commit": "956850cac597255b1aff869786f34d144cff583b"
+  },
+  {
+    "source": "DeepPBI-KG",
+    "path": "data/raw/DeepPBI-KG/repository.zip",
+    "url": "https://codeload.github.com/Tongqing-Wei/DeepPBI-KG/zip/956850cac597255b1aff869786f34d144cff583b",
+    "kind": "zip",
+    "commit": "956850cac597255b1aff869786f34d144cff583b"
+  },
+  {
+    "source": "PredPHI",
+    "path": "data/raw/PredPHI/tree.json",
+    "url": "https://api.github.com/repos/xialab-ahu/PredPHI/git/trees/84978a6d3af0bc914b3016cad59cde1719808fd8?recursive=1",
+    "kind": "json",
+    "commit": "84978a6d3af0bc914b3016cad59cde1719808fd8"
+  },
+  {
+    "source": "PredPHI",
+    "path": "data/raw/PredPHI/repository.zip",
+    "url": "https://codeload.github.com/xialab-ahu/PredPHI/zip/84978a6d3af0bc914b3016cad59cde1719808fd8",
+    "kind": "zip",
+    "commit": "84978a6d3af0bc914b3016cad59cde1719808fd8"
+  },
+  {
+    "source": "PhageHosts",
+    "path": "data/raw/PhageHosts/tree.json",
+    "url": "https://api.github.com/repos/linsalrob/PhageHosts/git/trees/d3b156b3c2dbbc0e69bf6464b644c03c1c084f8f?recursive=1",
+    "kind": "json",
+    "commit": "d3b156b3c2dbbc0e69bf6464b644c03c1c084f8f"
+  },
+  {
+    "source": "PhageHosts",
+    "path": "data/raw/PhageHosts/README.md",
+    "url": "https://raw.githubusercontent.com/linsalrob/PhageHosts/d3b156b3c2dbbc0e69bf6464b644c03c1c084f8f/README.md",
+    "kind": "binary",
+    "commit": "d3b156b3c2dbbc0e69bf6464b644c03c1c084f8f"
+  },
+  {
+    "source": "PhageHosts",
+    "path": "data/raw/PhageHosts/data/README.md",
+    "url": "https://raw.githubusercontent.com/linsalrob/PhageHosts/d3b156b3c2dbbc0e69bf6464b644c03c1c084f8f/data/README.md",
+    "kind": "binary",
+    "commit": "d3b156b3c2dbbc0e69bf6464b644c03c1c084f8f"
+  },
+  {
+    "source": "PhageHosts",
+    "path": "data/raw/PhageHosts/data/phage_host_taxid.txt",
+    "url": "https://raw.githubusercontent.com/linsalrob/PhageHosts/d3b156b3c2dbbc0e69bf6464b644c03c1c084f8f/data/phage_host_taxid.txt",
+    "kind": "binary",
+    "commit": "d3b156b3c2dbbc0e69bf6464b644c03c1c084f8f"
+  },
+  {
+    "source": "PhageHosts",
+    "path": "data/raw/PhageHosts/data/phage_with_host.tsv",
+    "url": "https://raw.githubusercontent.com/linsalrob/PhageHosts/d3b156b3c2dbbc0e69bf6464b644c03c1c084f8f/data/phage_with_host.tsv",
+    "kind": "binary",
+    "commit": "d3b156b3c2dbbc0e69bf6464b644c03c1c084f8f"
+  },
+  {
+    "source": "PhageHosts",
+    "path": "data/raw/PhageHosts/raw_data/README.md",
+    "url": "https://raw.githubusercontent.com/linsalrob/PhageHosts/d3b156b3c2dbbc0e69bf6464b644c03c1c084f8f/raw_data/README.md",
+    "kind": "binary",
+    "commit": "d3b156b3c2dbbc0e69bf6464b644c03c1c084f8f"
+  },
+  {
+    "source": "PhageHosts",
+    "path": "data/raw/PhageHosts/raw_data/phage_and_hosts.tsv",
+    "url": "https://raw.githubusercontent.com/linsalrob/PhageHosts/d3b156b3c2dbbc0e69bf6464b644c03c1c084f8f/raw_data/phage_and_hosts.tsv",
+    "kind": "binary",
+    "commit": "d3b156b3c2dbbc0e69bf6464b644c03c1c084f8f"
+  },
+  {
+    "source": "PHISDetector",
+    "path": "data/raw/PHISDetector/tree.json",
+    "url": "https://api.github.com/repos/HIT-ImmunologyLab/PHISDetector/git/trees/1685b90816ebee0ad6aa4ce8a6c3c361a5a03b46?recursive=1",
+    "kind": "json",
+    "commit": "1685b90816ebee0ad6aa4ce8a6c3c361a5a03b46"
+  },
+  {
+    "source": "PHISDetector",
+    "path": "data/raw/PHISDetector/README.md",
+    "url": "https://raw.githubusercontent.com/HIT-ImmunologyLab/PHISDetector/1685b90816ebee0ad6aa4ce8a6c3c361a5a03b46/README.md",
+    "kind": "binary",
+    "commit": "1685b90816ebee0ad6aa4ce8a6c3c361a5a03b46"
+  },
+  {
+    "source": "PHISDetector",
+    "path": "data/raw/PHISDetector/bin/virhostmatcher/Supplemental_table_virus_and_host_genomes.xlsx",
+    "url": "https://raw.githubusercontent.com/HIT-ImmunologyLab/PHISDetector/1685b90816ebee0ad6aa4ce8a6c3c361a5a03b46/bin/virhostmatcher/Supplemental_table_virus_and_host_genomes.xlsx",
+    "kind": "xlsx",
+    "commit": "1685b90816ebee0ad6aa4ce8a6c3c361a5a03b46"
+  },
+  {
+    "source": "DeepPBI-KG-paper",
+    "path": "data/raw/PMC11440089.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11440089/fullTextXML",
+    "kind": "xml"
+  },
+  {
+    "source": "PredPHI",
+    "path": "data/raw/PMC8703204.xml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8703204&rettype=xml",
+    "kind": "xml",
+    "reason": "Europe PMC fullTextXML returned HTTP 500; NCBI E-utilities PMC XML used instead"
+  },
+  {
+    "source": "PHISDetector",
+    "path": "data/raw/PMC9801046.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9801046/fullTextXML",
+    "kind": "xml"
+  },
+  {
+    "source": "MVP",
+    "path": "data/raw/PMC5753265.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5753265/fullTextXML",
+    "kind": "xml"
+  },
+  {
+    "source": "DeepPBI-KG-paper",
+    "path": "data/raw/supplementary_data_bbae484.zip",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11440089/bin/supplementary_data_bbae484.zip",
+    "kind": "zip",
+    "status": "unavailable",
+    "reason": "PMC direct supplementary endpoint returns HTML; Europe PMC supplementary-bundle.zip was downloaded instead"
+  },
+  {
+    "source": "PhageHosts",
+    "path": "data/raw/PMC5831537.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5831537/fullTextXML",
+    "kind": "xml"
+  },
+  {
+    "source": "DeepPBI-KG-paper",
+    "path": "data/raw/DeepPBI-KG-paper/supplementary-bundle.zip",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11440089/supplementaryFiles",
+    "kind": "zip"
+  },
+  {
+    "source": "NCBI",
+    "path": "data/raw/NCBI/AB063393.fasta",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AB063393&rettype=fasta&retmode=text",
+    "kind": "fasta",
+    "accession": "AB063393",
+    "reason": "Missing phage accession in external_key_gene_PHI_new.xlsx"
+  },
+  {
+    "source": "NCBI",
+    "path": "data/raw/NCBI/AB609718.fasta",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AB609718&rettype=fasta&retmode=text",
+    "kind": "fasta",
+    "accession": "AB609718",
+    "reason": "Missing phage accession in external_key_gene_PHI_new.xlsx"
+  },
+  {
+    "source": "NCBI",
+    "path": "data/raw/NCBI/HQ141410.fasta",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=HQ141410&rettype=fasta&retmode=text",
+    "kind": "fasta",
+    "accession": "HQ141410",
+    "reason": "Missing phage accession in external_key_gene_PHI_new.xlsx"
+  },
+  {
+    "source": "NCBI",
+    "path": "data/raw/NCBI/JQ086371.fasta",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=JQ086371&rettype=fasta&retmode=text",
+    "kind": "fasta",
+    "accession": "JQ086371",
+    "reason": "Missing phage accession in external_key_gene_PHI_new.xlsx"
+  },
+  {
+    "source": "NCBI",
+    "path": "data/raw/NCBI/KF192053.fasta",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KF192053&rettype=fasta&retmode=text",
+    "kind": "fasta",
+    "accession": "KF192053",
+    "reason": "Missing phage accession in external_key_gene_PHI_new.xlsx"
+  },
+  {
+    "source": "NCBI",
+    "path": "data/raw/NCBI/KF550303.fasta",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KF550303&rettype=fasta&retmode=text",
+    "kind": "fasta",
+    "accession": "KF550303",
+    "reason": "Missing phage accession in external_key_gene_PHI_new.xlsx"
+  },
+  {
+    "source": "NCBI",
+    "path": "data/raw/NCBI/KF626667.fasta",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KF626667&rettype=fasta&retmode=text",
+    "kind": "fasta",
+    "accession": "KF626667",
+    "reason": "Missing phage accession in external_key_gene_PHI_new.xlsx"
+  },
+  {
+    "source": "NCBI",
+    "path": "data/raw/NCBI/KF971864.fasta",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KF971864&rettype=fasta&retmode=text",
+    "kind": "fasta",
+    "accession": "KF971864",
+    "reason": "Missing phage accession in external_key_gene_PHI_new.xlsx"
+  },
+  {
+    "source": "NCBI",
+    "path": "data/raw/NCBI/KM606995.fasta",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KM606995&rettype=fasta&retmode=text",
+    "kind": "fasta",
+    "accession": "KM606995",
+    "reason": "Missing phage accession in external_key_gene_PHI_new.xlsx"
+  },
+  {
+    "source": "NCBI",
+    "path": "data/raw/NCBI/KM606996.fasta",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KM606996&rettype=fasta&retmode=text",
+    "kind": "fasta",
+    "accession": "KM606996",
+    "reason": "Missing phage accession in external_key_gene_PHI_new.xlsx"
+  },
+  {
+    "source": "NCBI",
+    "path": "data/raw/NCBI/KM606998.fasta",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KM606998&rettype=fasta&retmode=text",
+    "kind": "fasta",
+    "accession": "KM606998",
+    "reason": "Missing phage accession in external_key_gene_PHI_new.xlsx"
+  },
+  {
+    "source": "NCBI",
+    "path": "data/raw/NCBI/KM606999.fasta",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KM606999&rettype=fasta&retmode=text",
+    "kind": "fasta",
+    "accession": "KM606999",
+    "reason": "Missing phage accession in external_key_gene_PHI_new.xlsx"
+  },
+  {
+    "source": "NCBI",
+    "path": "data/raw/NCBI/NC_019717.fasta",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_019717&rettype=fasta&retmode=text",
+    "kind": "fasta",
+    "accession": "NC_019717",
+    "reason": "Missing phage accession in external_key_gene_PHI_new.xlsx"
+  },
+  {
+    "source": "PHISDetector",
+    "kind": "binary",
+    "path": "data/raw/PHISDetector/phage-bacteria-pairs.txt",
+    "url": "http://www.microbiome-bigdata.com/PHISDetector/static/files/download/phage-bacteria-pairs.txt",
+    "note": "PHISDetector benchmark phage-host pairs (host given as name); listed on /PHISDetector/index/download"
+  },
+  {
+    "source": "PHISDetector",
+    "kind": "binary",
+    "path": "data/raw/PHISDetector/phage_936_info.txt",
+    "url": "http://www.microbiome-bigdata.com/PHISDetector/static/download/PHIS/phage_936_info.txt",
+    "note": "936 phages with host name (Villarroel set used by PHISDetector)"
+  },
+  {
+    "source": "MVP",
+    "kind": "html",
+    "status": "unavailable",
+    "path": "data/raw/MVP/interactions.html",
+    "url": "http://mvp.medgenius.info/interactions",
+    "reason": "2026-10-07: mvp.medgenius.info redirects to www.medgenius.info and returns HTTP 520; no public pair export found"
+  },
+  {
+    "source": "PHISDetector",
+    "kind": "binary",
+    "status": "unavailable",
+    "path": "data/raw/PHISDetector/PHIS_database.tar.gz",
+    "url": "http://www.microbiome-bigdata.com/PHISDetector/static/download/PHIS/PHIS_database.tar.gz",
+    "reason": "102 GB full database; not needed for membership checks"
+  }
+]

@@ -1,0 +1,9 @@
+# downloaded data, derived tables and run logs (rebuild with the scripts)
+data/
+logs/
+# worksheets you fill in by hand
+note/
+__pycache__/
+*.part
+.DS_Store
+._*
