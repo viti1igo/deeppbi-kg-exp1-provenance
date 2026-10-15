@@ -1,0 +1,455 @@
+{
+ "_note": "In-browser strain-code search of PMC web-only papers (2026-10-11). Counts and short snippets only; full text not stored. mentions = matches of the paired host's strain codes/synonyms.",
+ "22282335": {
+  "chars": 14506,
+  "hosts": {
+   "CP027541": [
+    0,
+    "E0x134"
+   ],
+   "NC_018289": [
+    1,
+    "E2x47"
+   ],
+   "CP014617": [
+    0,
+    "E0x1"
+   ]
+  },
+  "finding": "Only mc2 155 named (host of all 138 phages); MKD8 never mentioned -> MKD8 pairs extrapolated."
+ },
+ "23858439": {
+  "chars": 45664,
+  "hosts": {
+   "NZ_CP009976": [
+    "code too short (18)",
+    "E0x16 E1x1"
+   ],
+   "CP009976": [
+    "code too short (18)",
+    "E0x12 E1x2"
+   ],
+   "CP009887": [
+    0,
+    "E1x1"
+   ]
+  },
+  "finding": "'#18' / 'strain 18' not found; host-range data cited from Holmfeldt et al. 2007 AEM (not in this paper)."
+ },
+ "12122206": {
+  "chars": 40248,
+  "hosts": {
+   "NC_004070": [
+    24,
+    "E1x5"
+   ],
+   "CP033337": [
+    0,
+    "E0x6"
+   ],
+   "NZ_LS483386": [
+    0,
+    "E0x6"
+   ],
+   "NC_004606": [
+    0,
+    "E0x3"
+   ],
+   "NZ_CP007041": [
+    0,
+    "E0x3"
+   ],
+   "NZ_CP011414": [
+    0,
+    "E0x1"
+   ],
+   "CP000262": [
+    0,
+    "E0x1"
+   ]
+  },
+  "finding": "MGAS315 genome paper (prophages); other S. pyogenes strains not mentioned."
+ },
+ "11160885": {
+  "chars": 34600,
+  "hosts": {
+   "NC_002662": [
+    17,
+    "E1x1"
+   ],
+   "NZ_LT599053": [
+    0,
+    "E0x12"
+   ],
+   "NZ_CM007353": [
+    0,
+    "E0x6"
+   ]
+  },
+  "finding": "Prophages of IL1403 only; A12, IBB477 not mentioned."
+ },
+ "22164349": {
+  "chars": 63285,
+  "hosts": {
+   "NC_006463": [
+    31,
+    "E0x1 E1x1"
+   ],
+   "AP017920": [
+    0,
+    "E0x1"
+   ]
+  },
+  "finding": "PLAQUE TEST: phiTMA clear plaques on HB27, HB8 and T. flavus AT-62, not on T. aquaticus YT-1; phiYS40 plaques only on HB8 -> candidate E3 (+) for HB8 pairs."
+ },
+ "19139231": {
+  "chars": 24513,
+  "hosts": {
+   "CP000362": [
+    17,
+    "E1x1"
+   ],
+   "NZ_CP027408": [
+    0,
+    "E0x1"
+   ]
+  },
+  "finding": "HOST-RANGE TABLE: Table 1 'Bacterial strains used in this study and their susceptibility to RDJLPhi1' lists R. denitrificans OCh114 (DSM 7001) as susceptible -> candidate E3 (+)."
+ },
+ "22923793": {
+  "chars": 7573,
+  "hosts": {
+   "NC_018289": [
+    2,
+    "E1x1"
+   ],
+   "CP027541": [
+    0,
+    "E0x1"
+   ]
+  },
+  "finding": "SWU1 isolated using M. smegmatis mc2155 (plaques); MKD8 not mentioned."
+ },
+ "15788529": {
+  "chars": 34081,
+  "hosts": {
+   "NZ_CP023560": [
+    0,
+    "E0x22"
+   ],
+   "NZ_CP026063": [
+    0,
+    "E0x22"
+   ]
+  },
+  "finding": "Neither paired S. aureus strain mentioned."
+ },
+ "19783628": {
+  "chars": 52166,
+  "hosts": {
+   "NZ_CP015985": [
+    0,
+    "E0x5"
+   ],
+   "CP027029": [
+    0,
+    "E0x4"
+   ],
+   "NC_013766": [
+    0,
+    "E0x2"
+   ],
+   "NC_013768": [
+    0,
+    "E0x2"
+   ],
+   "NC_017544": [
+    0,
+    "E0x2"
+   ],
+   "NC_017547": [
+    0,
+    "E0x2"
+   ],
+   "NC_018592": [
+    0,
+    "E0x2"
+   ],
+   "NC_011660": [
+    0,
+    "E0x1"
+   ],
+   "CP011102": [
+    0,
+    "E0x1"
+   ]
+  },
+  "finding": "None of 9 paired Listeria strains mentioned."
+ },
+ "22923402": {
+  "chars": 48458,
+  "hosts": {
+   "NC_013315": [
+    1,
+    "E0x2"
+   ],
+   "NC_013316": [
+    1,
+    "E0x2"
+   ],
+   "CM000660": [
+    0,
+    "E0x2"
+   ],
+   "NBTS02000002": [
+    0,
+    "E0x2"
+   ],
+   "NZ_CM000659": [
+    0,
+    "E0x2"
+   ],
+   "NZ_CP010888": [
+    0,
+    "E0x2"
+   ]
+  },
+  "finding": "CD196, R20291, 630 mentioned only as background genomes, not tested hosts."
+ },
+ "25848871": {
+  "chars": 79514,
+  "hosts": {
+   "CP002815": [
+    0,
+    "E0x19"
+   ]
+  },
+  "finding": "Host-interaction study, but strain 6609 not mentioned."
+ },
+ "22923589": {
+  "chars": 54563,
+  "hosts": {
+   "NZ_CP023967": [
+    0,
+    "E0x2"
+   ],
+   "CP014567": [
+    0,
+    "E0x1"
+   ]
+  },
+  "finding": "Not mentioned."
+ },
+ "19837832": {
+  "chars": 61225,
+  "hosts": {
+   "NZ_CP023560": [
+    0,
+    "E0x2"
+   ],
+   "NZ_CP026063": [
+    0,
+    "E0x2"
+   ]
+  },
+  "finding": "Not mentioned."
+ },
+ "22787268": {
+  "chars": 5707,
+  "hosts": {
+   "HG530068": [
+    0,
+    "E0x2"
+   ],
+   "NZ_CP012584": [
+    0,
+    "E0x2"
+   ]
+  },
+  "finding": "Not mentioned."
+ },
+ "10419946": {
+  "chars": 25365,
+  "hosts": {
+   "MTZF01000001": [
+    0,
+    "E0x3"
+   ]
+  },
+  "finding": "Not mentioned."
+ },
+ "15175308": {
+  "chars": 71650,
+  "hosts": {
+   "NZ_CP008892": [
+    0,
+    "E0x2"
+   ]
+  },
+  "finding": "Not mentioned."
+ },
+ "19181832": {
+  "chars": 60587,
+  "hosts": {
+   "NC_013973": [
+    0,
+    "E0x1"
+   ],
+   "NZ_NQJM01000001": [
+    0,
+    "E0x1"
+   ]
+  },
+  "finding": "Not mentioned."
+ },
+ "23118463": {
+  "chars": 6969,
+  "hosts": {
+   "NZ_CP013250": [
+    0,
+    "E0x2"
+   ]
+  },
+  "finding": "Not mentioned."
+ },
+ "11889111": {
+  "chars": 18318,
+  "hosts": {
+   "CP030279": [
+    0,
+    "E0x1"
+   ]
+  },
+  "finding": "Not mentioned."
+ },
+ "11976141": {
+  "chars": 35107,
+  "hosts": {
+   "NC_019681": [
+    0,
+    "E0x1"
+   ]
+  },
+  "finding": "HOST-RANGE TEST exists: P60 lyses Synechococcus WH7803; cross-infectivity tested on 10 other marine strains (WH7805, WH8103, ...); PCC 6312 not among them -> nt."
+ },
+ "12754230": {
+  "chars": 44853,
+  "hosts": {
+   "CP025095": [
+    0,
+    "E0x1"
+   ]
+  },
+  "finding": "Not mentioned."
+ },
+ "15028677": {
+  "chars": 62745,
+  "hosts": {
+   "AP014565": [
+    0,
+    "E0x1"
+   ]
+  },
+  "finding": "Not mentioned."
+ },
+ "15994804": {
+  "chars": 59821,
+  "hosts": {
+   "CP006884": [
+    0,
+    "E0x1"
+   ]
+  },
+  "finding": "Not mentioned."
+ },
+ "22593163": {
+  "chars": null,
+  "hosts": {
+   "NZ_LT897825": [
+    "no searchable strain code",
+    "E0x1"
+   ]
+  },
+  "finding": "Not searched (host record has no strain designation)."
+ },
+ "_note_paywalled": "Paywalled papers read 2026-10-11 through the user's UTS library proxy in Chrome; counts and short snippets only, nothing downloaded.",
+ "23129131": {
+  "access": "UTS",
+  "chars": 26248,
+  "hosts": {
+   "NZ_QEOC01000001 (WS3306)": [
+    0,
+    "E0"
+   ],
+   "NC_022125 (CCM2595)": [
+    0,
+    "E0"
+   ]
+  },
+  "finding": "RGL3/RER2 isolated on R. globerulus Rglo35 and R. erythropolis Rery29; spot host-range test on 65 actinobacterial strains (list in an earlier paper, no per-strain results here); WS3306 and CCM2595 not mentioned -> nt."
+ },
+ "20438817": {
+  "access": "UTS",
+  "chars": 37943,
+  "hosts": {
+   "12 C. difficile hosts": [
+    "0 (QCD-76w55 only as a BLAST hit in the ORF table)",
+    "E0x12"
+   ]
+  },
+  "finding": "phiCD6356 induced (mitomycin C) from one of 43 strains, propagated on indicator strain 79; paired strains appear only as gene-similarity hits -> nt; suggests pairs built from prophage-gene similarity."
+ },
+ "12036589": {
+  "access": "UTS",
+  "chars": 52860,
+  "hosts": {
+   "NZ_LS483365 (NCTC 8325)": [
+    11,
+    "E1x1"
+   ],
+   "NZ_CP026063 (FDAARGOS_14)": [
+    0,
+    "E0x5"
+   ],
+   "NZ_CP023560 (NMR08)": [
+    0,
+    "E0x3"
+   ]
+  },
+  "finding": "phi11/phi12/phi13 are prophages of S. aureus NCTC 8325 (E1 confirmed, prophage); other strains not mentioned -> nt."
+ },
+ "17768233": {
+  "access": "UTS",
+  "chars": 60752,
+  "hosts": {
+   "NC_008463 (UCBPP-PA14)": [
+    32,
+    "E1x1"
+   ],
+   "HG530068 (PA38182)": [
+    0,
+    "E0x1"
+   ],
+   "NZ_CP012584 (PA_D25)": [
+    0,
+    "E0x1"
+   ]
+  },
+  "finding": "PLAQUE TEST: 'Phage MP22 is able to form discernible plaques on P. aeruginosa strain PA14' -> candidate E3 (+) for the PA14 pair; others nt."
+ },
+ "12705866": {
+  "access": "UTS",
+  "chars": 63935,
+  "hosts": {
+   "CP027541 (MKD8)": [
+    0,
+    "E0x10"
+   ],
+   "CP020809 (PH-06)": [
+    0,
+    "E0x8"
+   ]
+  },
+  "finding": "Phages plated directly on M. smegmatis mc2155; MKD8 and PH-06 not mentioned -> nt (extrapolated)."
+ }
+}

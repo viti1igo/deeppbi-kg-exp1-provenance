@@ -1,0 +1,22 @@
+{
+  "positive_pairs": 4912,
+  "pairs_with_paper": 2273,
+  "pairs_without_paper": 2639,
+  "papers": 980,
+  "papers_free_pmc": 589,
+  "mixed_papers": 19,
+  "tier_papers": {
+    "1 mixed": 19,
+    "2 coverage": 10,
+    "3 random": 30
+  },
+  "tier_pairs_covered": {
+    "1 mixed": 330,
+    "3 random": 76,
+    "2 coverage": 235
+  },
+  "all_tiers_pairs_covered": 641,
+  "tier3_sampling_frame_papers": 539,
+  "code_check_pairs": 20,
+  "seed": 20261011
+}

@@ -98,6 +98,44 @@ def sheet(rows, widths, extra='', views=''):
             f'<cols>{cols}</cols><sheetData>{body}</sheetData>{extra}</worksheet>')
 
 
+def write_workbook(path, sheets, filter_ref):
+    """Write [(name, sheet_xml)] as an .xlsx; filter_ref is the autofilter range of the first sheet."""
+    with zipfile.ZipFile(path, 'w', zipfile.ZIP_DEFLATED) as z:
+        z.writestr('[Content_Types].xml',
+                   '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+                   '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">'
+                   '<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>'
+                   '<Default Extension="xml" ContentType="application/xml"/>'
+                   '<Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>'
+                   '<Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>'
+                   + ''.join(f'<Override PartName="/xl/worksheets/sheet{i + 1}.xml" '
+                             'ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>'
+                             for i in range(len(sheets))) + '</Types>')
+        z.writestr('_rels/.rels',
+                   '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+                   '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
+                   '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" '
+                   'Target="xl/workbook.xml"/></Relationships>')
+        z.writestr('xl/workbook.xml',
+                   '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+                   '<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" '
+                   'xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets>'
+                   + ''.join(f'<sheet name="{name}" sheetId="{i + 1}" r:id="rId{i + 1}"/>' for i, (name, _) in enumerate(sheets))
+                   + '</sheets><definedNames><definedName name="_xlnm._FilterDatabase" localSheetId="0" hidden="1">'
+                   + escape(filter_ref) + '</definedName></definedNames>'
+                   '<calcPr calcId="191029" fullCalcOnLoad="1"/></workbook>')
+        z.writestr('xl/_rels/workbook.xml.rels',
+                   '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+                   '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
+                   + ''.join(f'<Relationship Id="rId{i + 1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" '
+                             f'Target="worksheets/sheet{i + 1}.xml"/>' for i in range(len(sheets)))
+                   + f'<Relationship Id="rId{len(sheets) + 1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" '
+                   'Target="styles.xml"/></Relationships>')
+        z.writestr('xl/styles.xml', styles())
+        for i, (_, xml) in enumerate(sheets):
+            z.writestr(f'xl/worksheets/sheet{i + 1}.xml', xml)
+
+
 def previous_hand_rows():
     """Rows the user already checked in an existing workbook, keyed by (phage, host)."""
     if not OUT.exists():
@@ -191,40 +229,7 @@ def main():
     legend = sheet(legend_rows, [24, 60, 70])
 
     sheets = [('Pairs', pairs), ('Summary', summary), ('Legend', legend)]
-    with zipfile.ZipFile(OUT, 'w', zipfile.ZIP_DEFLATED) as z:
-        z.writestr('[Content_Types].xml',
-                   '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
-                   '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">'
-                   '<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>'
-                   '<Default Extension="xml" ContentType="application/xml"/>'
-                   '<Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>'
-                   '<Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>'
-                   + ''.join(f'<Override PartName="/xl/worksheets/sheet{i + 1}.xml" '
-                             'ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>'
-                             for i in range(len(sheets))) + '</Types>')
-        z.writestr('_rels/.rels',
-                   '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
-                   '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
-                   '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" '
-                   'Target="xl/workbook.xml"/></Relationships>')
-        z.writestr('xl/workbook.xml',
-                   '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
-                   '<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" '
-                   'xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets>'
-                   + ''.join(f'<sheet name="{name}" sheetId="{i + 1}" r:id="rId{i + 1}"/>' for i, (name, _) in enumerate(sheets))
-                   + '</sheets><definedNames><definedName name="_xlnm._FilterDatabase" localSheetId="0" hidden="1">'
-                   f"'Pairs'!$A$1:${last}${n + 1}</definedName></definedNames>"
-                   '<calcPr calcId="191029" fullCalcOnLoad="1"/></workbook>')
-        z.writestr('xl/_rels/workbook.xml.rels',
-                   '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
-                   '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'
-                   + ''.join(f'<Relationship Id="rId{i + 1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" '
-                             f'Target="worksheets/sheet{i + 1}.xml"/>' for i in range(len(sheets)))
-                   + f'<Relationship Id="rId{len(sheets) + 1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" '
-                   'Target="styles.xml"/></Relationships>')
-        z.writestr('xl/styles.xml', styles())
-        for i, (_, xml) in enumerate(sheets):
-            z.writestr(f'xl/worksheets/sheet{i + 1}.xml', xml)
+    write_workbook(OUT, sheets, f"'Pairs'!$A$1:${last}${n + 1}")
     print(f'{n} rows -> {OUT} ({len(kept)} hand-checked rows kept from the previous workbook)')
 
 

@@ -23,6 +23,8 @@ Experiment 2 (the authors' in vitro *K. pneumoniae* data on NGDC) is out of scop
 - None of the five source papers built its pairs from a lab experiment: positives come from database host fields (GenBank/RefSeq/PhagesDB) or predictions (MVP); all negatives are artificially sampled.
 - 2,571 positives pair a phage with a different strain than its own record names. The largest case: all **1,337** pairs with *Mycolicibacterium smegmatis* **MKD8** use phages isolated on strain **mc²155** (36.7% of the 3,647 training/test positives).
 - Levels are computed from database fields only; papers are not read automatically, so `E3 = 0` is a lower bound. Hand checking is supported by an Excel worksheet (below).
+- The [paper-level audit](#paper-level-audit-paper_audit) (59 papers, 641 pairs) found that papers name the strain they actually used, almost never the
+  other strains DeepPBI-KG pairs with. Draft result: only **4** positives reach `E3`; 0 of 76 `E0` pairs changed in 30 random papers.
 
 ## Requirements
 
@@ -71,6 +73,57 @@ NCBI is queried at ≤3 requests/s; PhagesDB needs a browser User-Agent (set in 
 Put your name in **Checked by** for rows you have checked: re-running `export_xlsx.py` keeps those rows.
 Close the workbook in Excel before re-running. Guide and keywords: [docs/MANUAL_CHECK.md](docs/MANUAL_CHECK.md).
 
+## Paper-level audit (`paper_audit/`)
+
+2,273 positives have a phage that cites a paper, but they cite only 980 papers, so one paper settles many pairs. The audit reads
+**papers, not pairs**, and lets code apply each paper's answer to all of its pairs. Method and decision rules:
+[paper_audit/AUDIT_PLAN.md](paper_audit/AUDIT_PLAN.md).
+
+| Tier | Papers | Pairs | Purpose |
+|---|---:|---:|---|
+| 1 mixed | 19 | 330 | Papers whose pairs got both E2/E1 and E0: did the paper also test the other strains? |
+| 2 coverage | 10 | 235 | Largest remaining papers |
+| 3 random | 30 | 76 | Random free-PMC papers with E0 pairs (seed 20261011): estimate for unread papers |
+| 4 code check | — | 20 | Pairs with no paper: confirm the database reading |
+
+Each paper is searched for the **strain codes (and synonyms)** of the hosts paired with its phages; each paired host gets a code:
+`+` / `-` (tested, infects / does not → E3), `iso` (isolation or propagation host → E2), `prophage` (→ E1), `nt` (not tested → unchanged),
+or `check` / `+?` / `unsearched` (pending a person).
+
+```bash
+python3 paper_audit/paper_audit.py               # papers per pair, tiers and samples -> note/paper_audit.csv
+python3 paper_audit/fetch_papers.py              # PMC full-text XML for the audit papers (cached, with receipts)
+python3 paper_audit/scan_papers.py               # strain-code search in each paper -> data/derived/paper_scan.csv
+python3 paper_audit/export_paper_audit_xlsx.py   # formatted workbook -> note/paper_audit.xlsx (keeps signed rows)
+python3 paper_audit/apply_paper_audit.py         # apply paper results to pair levels (reads the workbook when present)
+python3 -m unittest discover -s paper_audit/tests
+```
+
+Papers whose publisher blocks API download were searched in a browser on the PMC page (no full text stored); paywalled papers were
+read through a university library proxy. Their findings are recorded in `paper_audit/results/paper_scan_web.json`.
+
+### Results (drafts, 2026-10-11; not yet confirmed by hand)
+
+- All 59 audit papers searched: 32 PMC full-text XML, 24 PMC web pages, 3 paywalled (library); plus 2 paywalled papers from the hand-check sample.
+- **Mixed papers:** the E2/E1 host is the strain the paper used (isolation host or prophage host); the E0 hosts are not mentioned
+  (96 paired-host entries `nt`). Example: PMID 22282335 isolates all 138 phages on *M. smegmatis* mc²155 and never mentions MKD8.
+- **11 pairs change level:** E0 → E3 1 (phiTMA × *T. thermophilus* HB8, plaques, PMID 22164349); E1 → E3 3 (phiYS40 × HB8; MP22 × *P. aeruginosa*
+  PA14, PMID 17768233; RDJLΦ1 × *R. denitrificans* OCh114, susceptibility table, PMID 19139231); E1 → E2 7.
+- **Random tier:** 0 of 76 E0 pairs upgraded in 30 papers → per-paper upgrade rate below 10% (95%, rule of three).
+- No tested negatives found. The 12 *C. difficile* hosts paired with phiCD6356 appear in its paper only as BLAST hits of phage genes.
+- Pending: RDJLΦ1 × NZ_CP027408 (is FDAARGOS_309 = ATCC 33942 = OCh114?), DSS3Φ2 × DSS-3, 14 hosts with strain codes too short to search
+  (*Cellulophaga* "18": host range is in Holmfeldt et al. 2007, not yet read).
+
+| File (`paper_audit/results/`) | Content |
+|---|---|
+| `paper_audit.csv` | One row per audited paper: tier, pairs, links, `result_per_paired_host`, evidence notes (drafts) |
+| `papers.csv` | All 980 cited papers with pair counts per evidence level |
+| `paper_scan.csv` | Strain-code mentions per (paper, paired host) in PMC full text (excerpt column removed) |
+| `paper_scan_web.json` | Findings for papers read in a browser or through the library |
+| `paper_fetch.csv` | How each audit paper was obtained (full text / web only / paywalled) |
+| `pair_levels_after_audit.csv`, `_summary.json` | Pair levels before and after applying the paper results |
+| `code_check_pairs.csv` | The 20 no-paper pairs for the code check (not done yet) |
+
 ## Evidence rules
 
 - A pair counts as `E2`/`E3` only when a source names the **same phage and the same host strain** (or a synonym with a URL) and a lab method.
@@ -91,6 +144,7 @@ Close the workbook in Excel before re-running. Guide and keywords: [docs/MANUAL_
 ```
 scripts/   download, audit and evidence scripts (stdlib)
 tests/     unit tests (python3 -m unittest discover -s tests)
+paper_audit/   paper-level audit: scripts, tests, AUDIT_PLAN.md and results/ (drafts)
 docs/      PAIR_SOURCE_CHECKS.csv (curated input for audit.py), MANUAL_CHECK.md (hand-check guide)
 manifest.json   every download with URL, pinned commit where applicable, and unavailable endpoints
 data/, logs/, note/   created by the scripts; excluded from Git

@@ -1,0 +1,41 @@
+{
+  "all_results_including_drafts": {
+    "pairs_audited": 641,
+    "pairs_changed": 11,
+    "changes": {
+      "E1->E3": 3,
+      "E0->E3": 1,
+      "E1->E2": 7
+    },
+    "tested_negative_pairs": 0,
+    "pending_pairs": 61,
+    "distribution_after": {
+      "E0_annotation_coarse": 4478,
+      "E3_hostrange": 4,
+      "U_unresolved": 83,
+      "E1_annotation_strain": 37,
+      "E2_isolation_strain": 310
+    },
+    "tier3_E0_pairs": 76,
+    "tier3_E0_upgraded": 0,
+    "tier3_papers_with_any_upgrade": 0
+  },
+  "confirmed_by_person_only": {
+    "pairs_audited": 0,
+    "pairs_changed": 0,
+    "changes": {},
+    "tested_negative_pairs": 0,
+    "pending_pairs": 0,
+    "distribution_after": {
+      "E0_annotation_coarse": 4479,
+      "E1_annotation_strain": 47,
+      "U_unresolved": 83,
+      "E2_isolation_strain": 303
+    },
+    "tier3_E0_pairs": 0,
+    "tier3_E0_upgraded": 0,
+    "tier3_papers_with_any_upgrade": 0
+  },
+  "tier3_papers": 30,
+  "rule_of_three_upper_bound_if_no_tier3_upgrade": 0.1
+}

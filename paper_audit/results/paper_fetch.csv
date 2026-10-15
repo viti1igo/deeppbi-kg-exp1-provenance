@@ -1,0 +1,60 @@
+tier,pmid,pmc,title,access,tables,bytes
+1 mixed,22282335,PMC3302410,Complete genome sequences of 138 mycobacteriophages.,web_only,0,6897
+1 mixed,23858439,PMC3732932,Twelve previously unknown phage genera are ubiquitous in global oceans.,web_only,0,9980
+1 mixed,12122206,PMC126627,"Genome sequence of a serotype M3 strain of group A Streptococcus: phage-encoded toxins, th",web_only,0,11547
+1 mixed,21298013,PMC3029335,Expanding the diversity of mycobacteriophages: insights into genome architecture and evolu,full_text_xml,12,237542
+1 mixed,11160885,PMC30408,Analysis of six prophages in Lactococcus lactis IL1403: different genetic structure of tem,web_only,0,7361
+1 mixed,24874666,PMC4038871,Complete genome sequences of nine mycobacteriophages.,full_text_xml,0,21246
+1 mixed,12036589,,"Comparative analysis of the genomes of the temperate bacteriophages phi 11, phi 12 and phi",paywalled,,
+1 mixed,19689706,PMC2784036,Genome sequences of two novel phages infecting marine roseobacters.,full_text_xml,5,105115
+1 mixed,24285667,PMC3869329,Genome sequences of five b1 subcluster mycobacteriophages.,full_text_xml,1,22081
+1 mixed,22053209,PMC3203893,Cluster K mycobacteriophages: insights into the evolutionary origins of mycobacteriophage ,full_text_xml,4,213348
+1 mixed,17768233,,Genome sequence comparison and superinfection between two related Pseudomonas aeruginosa p,paywalled,,
+1 mixed,22164349,PMC3225780,Genomic and proteomic characterization of the large Myoviridae bacteriophage ϕTMA of the e,web_only,0,10672
+1 mixed,19139231,PMC2655476,"Roseophage RDJL Phi1, infecting the aerobic anoxygenic phototrophic bacterium Roseobacter ",web_only,0,5886
+1 mixed,21414219,PMC3070671,Complete genome sequence of a marine roseophage provides evidence into the evolution of ge,full_text_xml,2,55926
+1 mixed,22923793,PMC3446572,"Biology of a novel mycobacteriophage, SWU1, isolated from Chinese soil as revealed by geno",web_only,0,6657
+1 mixed,23109916,PMC3475682,Viral evasion of a bacterial suicide system by RNA-based molecular mimicry enables infecti,full_text_xml,2,114615
+1 mixed,23468864,PMC3585329,Analysis of novel mycobacteriophages indicates the existence of different strategies for p,full_text_xml,3,138138
+1 mixed,23613926,PMC3629165,Enhanced de novo assembly of high throughput pyrosequencing data using whole genome mappin,full_text_xml,2,101679
+1 mixed,24336362,PMC3861415,"Complete Genome Sequence of Escherichia Phage Lw1, a New Member of the RB43 Group of Pseud",full_text_xml,0,20909
+2 coverage,15788529,PMC556006,The complete genomes and proteomes of 27 Staphylococcus aureus bacteriophages.,web_only,0,8703
+2 coverage,22355195,PMC3318435,Population genomics and phylogeography of an Australian dairy factory derived lytic bacter,full_text_xml,3,90598
+2 coverage,16789831,PMC1475703,Exploring the mycobacteriophage metaproteome: phage genomics as an educational platform.,full_text_xml,3,123602
+2 coverage,19783628,PMC2786548,"Comparative genome analysis of Listeria bacteriophages reveals extensive mosaicism, progra",web_only,0,9156
+2 coverage,26115051,PMC4482731,Investigation of a Large Collection of Pseudomonas aeruginosa Bacteriophages Collected fro,full_text_xml,6,192524
+2 coverage,22923402,PMC3485732,Evidence of in vivo prophage induction during Clostridium difficile infection.,web_only,0,7851
+2 coverage,23015740,PMC3448167,Propionibacterium acnes bacteriophages display limited genetic diversity and broad killing,full_text_xml,3,132451
+2 coverage,25848871,PMC4542041,The diversity and host interactions of Propionibacterium acnes bacteriophages on human ski,web_only,0,11292
+2 coverage,12705866,,Origins of highly mosaic mycobacteriophage genomes.,paywalled,,
+2 coverage,21304168,PMC3037004,Evidence of a dominant lineage of Vibrio cholerae-specific lytic bacteriophages shed by ch,full_text_xml,3,136861
+3 random,26934590,PMC4774983,Horizontal DNA Transfer Mechanisms of Bacteria as Weapons of Intragenomic Conflict.,full_text_xml,0,324722
+3 random,27316672,PMC4912749,Characterization of mycobacteria and mycobacteriophages isolated from compost at the São P,full_text_xml,5,136183
+3 random,22923589,PMC3486100,Characterization of novel phages isolated in coagulase-negative staphylococci reveals evol,web_only,0,9917
+3 random,26347362,PMC4720417,A novel bacteriophage cocktail reduces and disperses Pseudomonas aeruginosa biofilms under,full_text_xml,5,155759
+3 random,19837832,PMC2794103,Functional genomic analysis of two Staphylococcus aureus phages isolated from the dairy en,web_only,0,8118
+3 random,22787268,PMC3421652,"Complete genome sequences of two Pseudomonas aeruginosa temperate phages, MP29 and MP42, w",web_only,0,5783
+3 random,10419946,PMC103579,Isolation of additional bacteriophages with genomes of segmented double-stranded RNA.,web_only,0,7598
+3 random,15175308,PMC419931,Genomic diversity of Burkholderia pseudomallei clinical isolates: subtractive hybridizatio,web_only,0,7326
+3 random,22413005,PMC3296691,T4-related bacteriophage LIMEstone isolates for the control of soft rot on potato caused b,full_text_xml,4,126099
+3 random,19181832,PMC2663227,Complete genome of the broad-host-range Erwinia amylovora phage phiEa21-4 and its relation,web_only,0,8221
+3 random,20333230,PMC2839356,Mobile regulatory cassettes mediate modular shuffling in T4-type phage genomes.,full_text_xml,2,113494
+3 random,23118463,PMC3497659,Complete genome sequence of Vibrio parahaemolyticus bacteriophage vB_VpaM_MAR.,web_only,0,7208
+3 random,24233583,PMC3828307,Complete Genome Sequence of Staphylococcus aureus Siphovirus Phage JS01.,full_text_xml,0,19587
+3 random,24309726,PMC3853049,Complete Genome of Bacillus subtilis Myophage Grass.,full_text_xml,0,18223
+3 random,24309727,PMC3853050,Complete Genome of Bacillus megaterium Podophage Pony.,full_text_xml,0,23906
+3 random,24309731,PMC3853054,Complete Genome of Clavibacter michiganensis subsp. sepedonicusis Siphophage CN1A.,full_text_xml,0,30540
+3 random,24407628,PMC3886941,Complete Genome Sequence of the Novel Giant Pseudomonas Phage PaBG.,full_text_xml,0,28929
+3 random,24699949,PMC3974931,Complete Genome Sequence of an F8-Like Lytic Myovirus ({varphi}SPM-1) That Infects Metallo,full_text_xml,0,22443
+3 random,27231352,PMC4882933,Complete Genome Sequences of Five Bacteriophages That Infect Rhodobacter capsulatus.,full_text_xml,0,25344
+3 random,11889111,PMC134938,Filamentous phage active on the gram-positive bacterium Propionibacterium freudenreichii.,web_only,0,6509
+3 random,11976141,PMC127578,Genomic sequence and evolution of marine cyanophage P60: a new insight on lytic and lysoge,web_only,0,6162
+3 random,12754230,PMC155366,"Genomic sequence of C1, the first streptococcal phage.",web_only,0,7549
+3 random,15028677,PMC374404,Complete genomic sequence of the virulent Salmonella bacteriophage SP6.,web_only,0,8286
+3 random,15994804,PMC1168735,"Constituents of SH1, a novel lipid-containing virus infecting the halophilic euryarchaeon ",web_only,0,8547
+3 random,21931710,PMC3170307,Microbiological and molecular assessment of bacteriophage ISP for the control of Staphyloc,full_text_xml,2,94164
+3 random,22047448,PMC3220722,Salmonella Typhimurium-specific bacteriophage ΦSH19 and the origins of species specificity,full_text_xml,3,129282
+3 random,22593163,PMC3421657,"Sequence and structural characterization of great salt lake bacteriophage CW02, a member o",web_only,0,9118
+3 random,23226451,PMC3511404,Synergistic action of gentamicin and bacteriophage in a continuous culture population of S,full_text_xml,0,115352
+3 random,25635028,PMC4319499,Complete Genome of Bacillus megaterium Podophage Pascal.,full_text_xml,0,26505
+3 random,26604259,PMC4669384,Phylogenetic Distribution of CRISPR-Cas Systems in Antibiotic-Resistant Pseudomonas aerugi,full_text_xml,0,178555
