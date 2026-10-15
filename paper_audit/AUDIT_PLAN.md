@@ -11,7 +11,7 @@ and handle papers whose pairs got **both E2 and E0** (the paper supports one hos
   a small check that the code read those fields correctly (tier 4).
 - 589 of the 980 papers are free in PMC.
 
-## The four tiers (files: `note/paper_audit.csv`, `note/code_check_pairs.csv`; built by `scripts/paper_audit.py`)
+## The four tiers (files: `note/paper_audit.csv`, `note/code_check_pairs.csv`; built by `paper_audit/paper_audit.py`)
 
 | Tier | What | Papers | Pairs covered | Why |
 |---|---|---:|---:|---|
@@ -48,7 +48,7 @@ keywords *host range, spot, plaque, EOP, lysis, susceptible, propagated, isolate
 | `prophage` | at least E1_annotation_strain (phage is a prophage in this host's genome) |
 | `check`, `+?`, `unsearched` | unchanged, counted as pending until a person decides |
 
-`python3 scripts/apply_paper_audit.py` applies these to all pairs of each paper → `data/derived/pair_levels_after_audit.csv` and a summary, both for all results and for rows confirmed by a person only.
+`python3 paper_audit/apply_paper_audit.py` applies these to all pairs of each paper → `data/derived/pair_levels_after_audit.csv` and a summary, both for all results and for rows confirmed by a person only.
 
 ## Reading the mixed papers (tier 1)
 
